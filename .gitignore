@@ -1,0 +1,18 @@
+# Ignore shape files and other large geospatial data
+data/*.shp
+data/*.shx
+data/*.dbf
+data/*.prj
+data/*.cpg
+data/*.zip
+data/*.rar
+data/*.7z
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
