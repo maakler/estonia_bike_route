@@ -1,0 +1,9 @@
+name: estonia_bike
+dependencies:
+  - python=3.10
+  - geopandas
+  - networkx
+  - pandas
+  - shapely
+channels:
+  - conda-forge
