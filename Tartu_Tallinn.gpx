@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="MyTSPApp" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Tartu -> Tallinn</name>
+    <author>My TSP Solver</author>
+  </metadata>
+  <trk>
+    <name>Tartu -> Tallinn</name>
+    <trkseg>
+      <trkpt lat="58.38013888888889" lon="26.72247222222222">
+        <name>Tartu</name>
+      </trkpt>
+      <trkpt lat="58.22661111111111" lon="26.418194444444445">
+        <name>Elva</name>
+      </trkpt>
+      <trkpt lat="58.06019444444444" lon="26.492444444444445">
+        <name>Otepää</name>
+      </trkpt>
+      <trkpt lat="58.063944444444445" lon="27.07027777777778">
+        <name>Põlva</name>
+      </trkpt>
+      <trkpt lat="58.09961111111112" lon="27.46686111111111">
+        <name>Räpina</name>
+      </trkpt>
+      <trkpt lat="57.841424" lon="27.006353">
+        <name>Võru</name>
+      </trkpt>
+      <trkpt lat="57.82872222222223" lon="26.534">
+        <name>Antsla</name>
+      </trkpt>
+      <trkpt lat="57.77875" lon="26.049666666666667">
+        <name>Valga</name>
+      </trkpt>
+      <trkpt lat="58.00236111111112" lon="25.92327777777778">
+        <name>Tõrva</name>
+      </trkpt>
+      <trkpt lat="58.10286111111111" lon="25.55025">
+        <name>Karksi-Nuia</name>
+      </trkpt>
+      <trkpt lat="58.12655555555556" lon="25.353611111111118">
+        <name>Abja-Paluoja</name>
+      </trkpt>
+      <trkpt lat="58.09283333333334" lon="25.180861111111117">
+        <name>Mõisaküla</name>
+      </trkpt>
+      <trkpt lat="58.14972222222222" lon="24.96225">
+        <name>Kilingi-Nõmme</name>
+      </trkpt>
+      <trkpt lat="58.403" lon="24.65872222222222">
+        <name>Sindi</name>
+      </trkpt>
+      <trkpt lat="58.38463888888889" lon="24.516">
+        <name>Pärnu</name>
+      </trkpt>
+      <trkpt lat="58.68219444444444" lon="23.833277777777777">
+        <name>Lihula</name>
+      </trkpt>
+      <trkpt lat="58.257305555555554" lon="22.49344444444445">
+        <name>Kuressaare</name>
+      </trkpt>
+      <trkpt lat="58.99761111111111" lon="22.74716666666667">
+        <name>Kärdla</name>
+      </trkpt>
+      <trkpt lat="58.94269444444444" lon="23.54113888888889">
+        <name>Haapsalu</name>
+      </trkpt>
+      <trkpt lat="59.35208333333333" lon="24.057666666666663">
+        <name>Paldiski</name>
+      </trkpt>
+      <trkpt lat="59.30658333333333" lon="24.416416666666667">
+        <name>Keila</name>
+      </trkpt>
+      <trkpt lat="59.32016666666667" lon="24.544194444444447">
+        <name>Saue</name>
+      </trkpt>
+      <trkpt lat="58.99952777777778" lon="24.80125">
+        <name>Rapla</name>
+      </trkpt>
+      <trkpt lat="58.80858333333333" lon="25.42613888888889">
+        <name>Türi</name>
+      </trkpt>
+      <trkpt lat="58.88652777777778" lon="25.562194444444444">
+        <name>Paide</name>
+      </trkpt>
+      <trkpt lat="58.63352777777778" lon="25.560166666666667">
+        <name>Võhma</name>
+      </trkpt>
+      <trkpt lat="58.536027777777775" lon="25.46797222222222">
+        <name>Suure-Jaani</name>
+      </trkpt>
+      <trkpt lat="58.361222222222224" lon="25.574694444444443">
+        <name>Viljandi</name>
+      </trkpt>
+      <trkpt lat="58.65633333333333" lon="25.97675">
+        <name>Põltsamaa</name>
+      </trkpt>
+      <trkpt lat="58.74508333333333" lon="26.397">
+        <name>Jõgeva</name>
+      </trkpt>
+      <trkpt lat="58.66788888888889" lon="27.15544444444444">
+        <name>Kallaste</name>
+      </trkpt>
+      <trkpt lat="58.848194444444445" lon="26.944444444444446">
+        <name>Mustvee</name>
+      </trkpt>
+      <trkpt lat="59.35525" lon="27.41766666666667">
+        <name>Jõhvi</name>
+      </trkpt>
+      <trkpt lat="59.45466666666667" lon="28.03505555555556">
+        <name>Narva-Jõesuu</name>
+      </trkpt>
+      <trkpt lat="59.37611111111112" lon="28.197777777777777">
+        <name>Narva</name>
+      </trkpt>
+      <trkpt lat="59.400277777777774" lon="27.73580555555556">
+        <name>Sillamäe</name>
+      </trkpt>
+      <trkpt lat="59.39561111111111" lon="27.25030555555556">
+        <name>Kohtla-Järve</name>
+      </trkpt>
+      <trkpt lat="59.35930555555556" lon="27.044500000000003">
+        <name>Püssi</name>
+      </trkpt>
+      <trkpt lat="59.35694444444445" lon="26.96305555555556">
+        <name>Kiviõli</name>
+      </trkpt>
+      <trkpt lat="59.50925" lon="26.527388888888886">
+        <name>Kunda</name>
+      </trkpt>
+      <trkpt lat="59.35275" lon="26.36052777777778">
+        <name>Rakvere</name>
+      </trkpt>
+      <trkpt lat="59.164" lon="26.09358333333333">
+        <name>Tamsalu</name>
+      </trkpt>
+      <trkpt lat="59.27155555555555" lon="25.948416666666667">
+        <name>Tapa</name>
+      </trkpt>
+      <trkpt lat="59.58402777777778" lon="25.72097222222222">
+        <name>Loksa</name>
+      </trkpt>
+      <trkpt lat="59.339194444444445" lon="25.32852777777778">
+        <name>Kehra</name>
+      </trkpt>
+      <trkpt lat="59.480555555555554" lon="25.02058333333333">
+        <name>Maardu</name>
+      </trkpt>
+      <trkpt lat="59.43277777777777" lon="24.70533333333333">
+        <name>Tallinn</name>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

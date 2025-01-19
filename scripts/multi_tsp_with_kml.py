@@ -89,7 +89,7 @@ def solve_tsp(distance_matrix, start_index, end_index=None):
     search_params.local_search_metaheuristic = (
     routing_enums_pb2.LocalSearchMetaheuristic.GUIDED_LOCAL_SEARCH
     )
-    search_params.time_limit.seconds = 10800 #3 hours
+    search_params.time_limit.seconds = 300 # 5min
 
     solution = routing.SolveWithParameters(search_params)
     if solution:

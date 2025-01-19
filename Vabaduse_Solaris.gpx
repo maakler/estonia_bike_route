@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="MyTSPApp" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Vabaduse -> Solaris</name>
+    <author>My TSP Solver</author>
+  </metadata>
+  <trk>
+    <name>Vabaduse -> Solaris</name>
+    <trkseg>
+      <trkpt lat="58.380793" lon="26.725174">
+        <name>Hesburger Tartu Vabaduse</name>
+      </trkpt>
+      <trkpt lat="58.373613" lon="26.750666">
+        <name>Hesburger Tartu Eedeni keskus</name>
+      </trkpt>
+      <trkpt lat="58.378156" lon="26.751086">
+        <name>Hesburger Tartu Anne</name>
+      </trkpt>
+      <trkpt lat="58.376523" lon="26.72883">
+        <name>Hesburger Tartu Kvartal</name>
+      </trkpt>
+      <trkpt lat="58.376072" lon="26.696668">
+        <name>Hesburger Tartu Veeriku</name>
+      </trkpt>
+      <trkpt lat="58.37563" lon="26.678861">
+        <name>Hesburger Tartu Ringtee Drive-in</name>
+      </trkpt>
+      <trkpt lat="58.357677" lon="26.677553">
+        <name>Hesburger Tartu Lõunakeskus</name>
+      </trkpt>
+      <trkpt lat="58.22661111111111" lon="26.418194444444445">
+        <name>Elva</name>
+      </trkpt>
+      <trkpt lat="58.06019444444444" lon="26.492444444444445">
+        <name>Otepää</name>
+      </trkpt>
+      <trkpt lat="58.063944444444445" lon="27.07027777777778">
+        <name>Põlva</name>
+      </trkpt>
+      <trkpt lat="58.09961111111112" lon="27.46686111111111">
+        <name>Räpina</name>
+      </trkpt>
+      <trkpt lat="57.835098" lon="27.010202">
+        <name>Hesburger Võru</name>
+      </trkpt>
+      <trkpt lat="57.82872222222223" lon="26.534">
+        <name>Antsla</name>
+      </trkpt>
+      <trkpt lat="57.777985" lon="26.027714">
+        <name>Hesburger Valga Rimi</name>
+      </trkpt>
+      <trkpt lat="58.00236111111112" lon="25.92327777777778">
+        <name>Tõrva</name>
+      </trkpt>
+      <trkpt lat="58.10286111111111" lon="25.55025">
+        <name>Karksi-Nuia</name>
+      </trkpt>
+      <trkpt lat="58.12655555555556" lon="25.353611111111118">
+        <name>Abja-Paluoja</name>
+      </trkpt>
+      <trkpt lat="58.09283333333334" lon="25.180861111111117">
+        <name>Mõisaküla</name>
+      </trkpt>
+      <trkpt lat="58.14972222222222" lon="24.96225">
+        <name>Kilingi-Nõmme</name>
+      </trkpt>
+      <trkpt lat="58.403" lon="24.65872222222222">
+        <name>Sindi</name>
+      </trkpt>
+      <trkpt lat="58.370032" lon="24.550771">
+        <name>Hesburger Pärnu Kaubamajakas</name>
+      </trkpt>
+      <trkpt lat="58.375092" lon="24.53669">
+        <name>Hesburger Pärnu Maxima</name>
+      </trkpt>
+      <trkpt lat="58.393268" lon="24.540026">
+        <name>Hesburger Pärnu Niidu Drive</name>
+      </trkpt>
+      <trkpt lat="58.386253" lon="24.503037">
+        <name>Hesburger Pärnu Port Artur</name>
+      </trkpt>
+      <trkpt lat="58.68219444444444" lon="23.833277777777777">
+        <name>Lihula</name>
+      </trkpt>
+      <trkpt lat="58.26561" lon="22.515288">
+        <name>Hesburger Kuressaare Auriga keskuses</name>
+      </trkpt>
+      <trkpt lat="58.99761111111111" lon="22.74716666666667">
+        <name>Kärdla</name>
+      </trkpt>
+      <trkpt lat="58.939081" lon="23.540823">
+        <name>Hesburger Haapsalu</name>
+      </trkpt>
+      <trkpt lat="59.35208333333333" lon="24.057666666666663">
+        <name>Paldiski</name>
+      </trkpt>
+      <trkpt lat="59.313401" lon="24.421447">
+        <name>Hesburger Keila Selver</name>
+      </trkpt>
+      <trkpt lat="59.32016666666667" lon="24.544194444444447">
+        <name>Saue</name>
+      </trkpt>
+      <trkpt lat="59.348955" lon="24.617594">
+        <name>Hesburger Narva Pähklimägi</name>
+      </trkpt>
+      <trkpt lat="59.360329" lon="24.63118">
+        <name>Hesburger Tallinn Laagri</name>
+      </trkpt>
+      <trkpt lat="59.413821" lon="24.655146">
+        <name>Hesburger Tallinn Nurmenuku</name>
+      </trkpt>
+      <trkpt lat="59.420991" lon="24.651578">
+        <name>Hesburger Tallinn Õismäe Maxima</name>
+      </trkpt>
+      <trkpt lat="59.425754" lon="24.647293">
+        <name>Hesburger Tallinn Unibet Arena</name>
+      </trkpt>
+      <trkpt lat="59.427533" lon="24.660042">
+        <name>Hesburger Tallinn Rocca Al Mare</name>
+      </trkpt>
+      <trkpt lat="59.430153" lon="24.69713">
+        <name>Hesburger Tallinn Merimetsa Selver</name>
+      </trkpt>
+      <trkpt lat="59.451322" lon="24.716886">
+        <name>Hesburger Tallinn Arsenali keskus</name>
+      </trkpt>
+      <trkpt lat="59.437873" lon="24.708606">
+        <name>Hesburger Tallinn Sõle</name>
+      </trkpt>
+      <trkpt lat="59.427252" lon="24.722328">
+        <name>Hesburger Tallinn Kristiine keskus</name>
+      </trkpt>
+      <trkpt lat="59.411797" lon="24.70738">
+        <name>Hesburger Tallinn Sõpruse</name>
+      </trkpt>
+      <trkpt lat="59.409358" lon="24.685001">
+        <name>Hesburger Tallinn Mustamäe</name>
+      </trkpt>
+      <trkpt lat="59.400877" lon="24.696846">
+        <name>Hesburger Tallinn Magistral</name>
+      </trkpt>
+      <trkpt lat="59.402168" lon="24.730492">
+        <name>Hesburger Tallinn Järve</name>
+      </trkpt>
+      <trkpt lat="59.326496" lon="24.771866">
+        <name>Hesburger Luige Drive-in</name>
+      </trkpt>
+      <trkpt lat="59.010148" lon="24.793407">
+        <name>Hesburger Rapla</name>
+      </trkpt>
+      <trkpt lat="58.886567" lon="25.541933">
+        <name>Hesburger Paide Drive-in</name>
+      </trkpt>
+      <trkpt lat="58.80858333333333" lon="25.42613888888889">
+        <name>Türi</name>
+      </trkpt>
+      <trkpt lat="58.63352777777778" lon="25.560166666666667">
+        <name>Võhma</name>
+      </trkpt>
+      <trkpt lat="58.536027777777775" lon="25.46797222222222">
+        <name>Suure-Jaani</name>
+      </trkpt>
+      <trkpt lat="58.369265" lon="25.59745">
+        <name>Hesburger Viljandi</name>
+      </trkpt>
+      <trkpt lat="58.65633333333333" lon="25.97675">
+        <name>Põltsamaa</name>
+      </trkpt>
+      <trkpt lat="58.74508333333333" lon="26.397">
+        <name>Jõgeva</name>
+      </trkpt>
+      <trkpt lat="58.66788888888889" lon="27.15544444444444">
+        <name>Kallaste</name>
+      </trkpt>
+      <trkpt lat="58.848194444444445" lon="26.944444444444446">
+        <name>Mustvee</name>
+      </trkpt>
+      <trkpt lat="59.365479" lon="28.185921">
+        <name>Hesburger Narva Juuli</name>
+      </trkpt>
+      <trkpt lat="59.37961" lon="28.187141">
+        <name>Hesburger Narva Fama Keskus</name>
+      </trkpt>
+      <trkpt lat="59.45466666666667" lon="28.03505555555556">
+        <name>Narva-Jõesuu</name>
+      </trkpt>
+      <trkpt lat="59.400277777777774" lon="27.73580555555556">
+        <name>Sillamäe</name>
+      </trkpt>
+      <trkpt lat="59.337758" lon="27.419774">
+        <name>Hesburger Ahtme Maxima</name>
+      </trkpt>
+      <trkpt lat="59.357972" lon="27.414449">
+        <name>Hesburger Jõhvi</name>
+      </trkpt>
+      <trkpt lat="59.398203" lon="27.286446">
+        <name>Hesburger Kohtla-Järve Vironia Keskus</name>
+      </trkpt>
+      <trkpt lat="59.35930555555556" lon="27.044500000000003">
+        <name>Püssi</name>
+      </trkpt>
+      <trkpt lat="59.35694444444445" lon="26.96305555555556">
+        <name>Kiviõli</name>
+      </trkpt>
+      <trkpt lat="59.50925" lon="26.527388888888886">
+        <name>Kunda</name>
+      </trkpt>
+      <trkpt lat="59.354901" lon="26.383755">
+        <name>Hesburger Rakvere Vaala Keskus</name>
+      </trkpt>
+      <trkpt lat="59.364323" lon="26.339464">
+        <name>Hesburger Rakvere Põhjakeskus</name>
+      </trkpt>
+      <trkpt lat="59.164" lon="26.09358333333333">
+        <name>Tamsalu</name>
+      </trkpt>
+      <trkpt lat="59.258187" lon="25.967906">
+        <name>Hesburger Tapa Drive-in</name>
+      </trkpt>
+      <trkpt lat="59.58402777777778" lon="25.72097222222222">
+        <name>Loksa</name>
+      </trkpt>
+      <trkpt lat="59.339194444444445" lon="25.32852777777778">
+        <name>Kehra</name>
+      </trkpt>
+      <trkpt lat="59.48734" lon="25.018557">
+        <name>Hesburger Maardu</name>
+      </trkpt>
+      <trkpt lat="59.445834" lon="24.896463">
+        <name>Hesburger Tallinn Ümera</name>
+      </trkpt>
+      <trkpt lat="59.440863" lon="24.863903">
+        <name>Hesburger Tallinn Lasnamäe Centrum</name>
+      </trkpt>
+      <trkpt lat="59.434938" lon="24.831482">
+        <name>Hesburger Tallinn Lasnamäe Smuuli</name>
+      </trkpt>
+      <trkpt lat="59.424661" lon="24.793786">
+        <name>Hesburger Tallinn T1</name>
+      </trkpt>
+      <trkpt lat="59.402656" lon="24.811351">
+        <name>Hesburger Peetri Selver</name>
+      </trkpt>
+      <trkpt lat="59.425996" lon="24.782889">
+        <name>Hesburger Tallinn Sikupilli</name>
+      </trkpt>
+      <trkpt lat="59.440574" lon="24.76265">
+        <name>Hesburger Tallinn Nautica Keskus</name>
+      </trkpt>
+      <trkpt lat="59.436722" lon="24.751857">
+        <name>Hesburger Tallinn Viru tn.</name>
+      </trkpt>
+      <trkpt lat="59.433725" lon="24.751306">
+        <name>Hesburger Tallinn Solaris Keskus</name>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

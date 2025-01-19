@@ -4,331 +4,366 @@
   <name>Tartu -> Tallinn</name>
 
     <Placemark>
-      <name>Tartu</name>
+      <name>Hesburger Tartu Vabaduse</name>
       <Point>
-        <coordinates>26.72247222222222,58.38013888888889,0</coordinates>
+        <coordinates>26.725174,58.380793,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Elva</name>
+      <name>Hesburger Valga Rimi</name>
       <Point>
-        <coordinates>26.418194444444445,58.22661111111111,0</coordinates>
+        <coordinates>26.027714,57.777985,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Otepää</name>
+      <name>Hesburger Tartu Lõunakeskus</name>
       <Point>
-        <coordinates>26.492444444444445,58.06019444444444,0</coordinates>
+        <coordinates>26.677553,58.357677,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Põlva</name>
+      <name>Hesburger Tartu Veeriku</name>
       <Point>
-        <coordinates>27.07027777777778,58.063944444444445,0</coordinates>
+        <coordinates>26.696668,58.376072,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Räpina</name>
+      <name>Hesburger Tartu Ringtee Drive-in</name>
       <Point>
-        <coordinates>27.46686111111111,58.09961111111112,0</coordinates>
+        <coordinates>26.678861,58.37563,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Võru</name>
+      <name>Hesburger Tartu Kvartal</name>
       <Point>
-        <coordinates>27.006353,57.841424,0</coordinates>
+        <coordinates>26.72883,58.376523,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Antsla</name>
+      <name>Hesburger Narva Pähklimägi</name>
       <Point>
-        <coordinates>26.534,57.82872222222223,0</coordinates>
+        <coordinates>24.617594,59.348955,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Valga</name>
+      <name>Hesburger Tartu Anne</name>
       <Point>
-        <coordinates>26.049666666666667,57.77875,0</coordinates>
+        <coordinates>26.751086,58.378156,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Tõrva</name>
+      <name>Hesburger Tallinn Laagri</name>
       <Point>
-        <coordinates>25.92327777777778,58.00236111111112,0</coordinates>
+        <coordinates>24.63118,59.360329,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Karksi-Nuia</name>
+      <name>Hesburger Tartu Eedeni keskus</name>
       <Point>
-        <coordinates>25.55025,58.10286111111111,0</coordinates>
+        <coordinates>26.750666,58.373613,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Abja-Paluoja</name>
+      <name>Hesburger Luige Drive-in</name>
       <Point>
-        <coordinates>25.353611111111118,58.12655555555556,0</coordinates>
+        <coordinates>24.771866,59.326496,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Mõisaküla</name>
+      <name>Hesburger Peetri Selver</name>
       <Point>
-        <coordinates>25.180861111111117,58.09283333333334,0</coordinates>
+        <coordinates>24.811351,59.402656,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Kilingi-Nõmme</name>
+      <name>Hesburger Tallinn Ümera</name>
       <Point>
-        <coordinates>24.96225,58.14972222222222,0</coordinates>
+        <coordinates>24.896463,59.445834,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Sindi</name>
+      <name>Hesburger Rakvere Vaala Keskus</name>
       <Point>
-        <coordinates>24.65872222222222,58.403,0</coordinates>
+        <coordinates>26.383755,59.354901,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Pärnu</name>
+      <name>Hesburger Maardu</name>
       <Point>
-        <coordinates>24.516,58.38463888888889,0</coordinates>
+        <coordinates>25.018557,59.48734,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Kuressaare</name>
+      <name>Hesburger Tallinn Lasnamäe Centrum</name>
       <Point>
-        <coordinates>22.49344444444445,58.257305555555554,0</coordinates>
+        <coordinates>24.863903,59.440863,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Lihula</name>
+      <name>Hesburger Rakvere Põhjakeskus</name>
       <Point>
-        <coordinates>23.833277777777777,58.68219444444444,0</coordinates>
+        <coordinates>26.339464,59.364323,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Kärdla</name>
+      <name>Hesburger Tallinn Lasnamäe Smuuli</name>
       <Point>
-        <coordinates>22.74716666666667,58.99761111111111,0</coordinates>
+        <coordinates>24.831482,59.434938,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Haapsalu</name>
+      <name>Hesburger Narva Fama Keskus</name>
       <Point>
-        <coordinates>23.54113888888889,58.94269444444444,0</coordinates>
+        <coordinates>28.187141,59.37961,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Paldiski</name>
+      <name>Hesburger Tallinn T1</name>
       <Point>
-        <coordinates>24.057666666666663,59.35208333333333,0</coordinates>
+        <coordinates>24.793786,59.424661,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Keila</name>
+      <name>Hesburger Narva Juuli</name>
       <Point>
-        <coordinates>24.416416666666667,59.30658333333333,0</coordinates>
+        <coordinates>28.185921,59.365479,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Saue</name>
+      <name>Hesburger Tallinn Sikupilli</name>
       <Point>
-        <coordinates>24.544194444444447,59.32016666666667,0</coordinates>
+        <coordinates>24.782889,59.425996,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Rapla</name>
+      <name>Hesburger Ahtme Maxima</name>
       <Point>
-        <coordinates>24.80125,58.99952777777778,0</coordinates>
+        <coordinates>27.419774,59.337758,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Türi</name>
+      <name>Hesburger Tallinn Järve</name>
       <Point>
-        <coordinates>25.42613888888889,58.80858333333333,0</coordinates>
+        <coordinates>24.730492,59.402168,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Paide</name>
+      <name>Hesburger Jõhvi</name>
       <Point>
-        <coordinates>25.562194444444444,58.88652777777778,0</coordinates>
+        <coordinates>27.414449,59.357972,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Võhma</name>
+      <name>Hesburger Tallinn Sõpruse</name>
       <Point>
-        <coordinates>25.560166666666667,58.63352777777778,0</coordinates>
+        <coordinates>24.70738,59.411797,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Suure-Jaani</name>
+      <name>Hesburger Kohtla-Järve Vironia Keskus</name>
       <Point>
-        <coordinates>25.46797222222222,58.536027777777775,0</coordinates>
+        <coordinates>27.286446,59.398203,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Viljandi</name>
+      <name>Hesburger Tallinn Magistral</name>
       <Point>
-        <coordinates>25.574694444444443,58.361222222222224,0</coordinates>
+        <coordinates>24.696846,59.400877,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Põltsamaa</name>
+      <name>Hesburger Tapa Drive-in</name>
       <Point>
-        <coordinates>25.97675,58.65633333333333,0</coordinates>
+        <coordinates>25.967906,59.258187,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Jõgeva</name>
+      <name>Hesburger Tallinn Mustamäe</name>
       <Point>
-        <coordinates>26.397,58.74508333333333,0</coordinates>
+        <coordinates>24.685001,59.409358,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Kallaste</name>
+      <name>Hesburger Rapla</name>
       <Point>
-        <coordinates>27.15544444444444,58.66788888888889,0</coordinates>
+        <coordinates>26.0,59.0,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Mustvee</name>
+      <name>Hesburger Tallinn Nurmenuku</name>
       <Point>
-        <coordinates>26.944444444444446,58.848194444444445,0</coordinates>
+        <coordinates>24.655146,59.413821,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Jõhvi</name>
+      <name>Hesburger Paide Drive-in</name>
       <Point>
-        <coordinates>27.41766666666667,59.35525,0</coordinates>
+        <coordinates>25.541933,58.886567,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Narva-Jõesuu</name>
+      <name>Hesburger Tallinn Õismäe Maxima</name>
       <Point>
-        <coordinates>28.03505555555556,59.45466666666667,0</coordinates>
+        <coordinates>24.651578,59.420991,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Narva</name>
+      <name>Hesburger Viljandi</name>
       <Point>
-        <coordinates>28.197777777777777,59.37611111111112,0</coordinates>
+        <coordinates>25.59745,58.369265,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Sillamäe</name>
+      <name>Hesburger Tallinn Unibet Arena</name>
       <Point>
-        <coordinates>27.73580555555556,59.400277777777774,0</coordinates>
+        <coordinates>24.647293,59.425754,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Kohtla-Järve</name>
+      <name>Hesburger Pärnu Kaubamajakas</name>
       <Point>
-        <coordinates>27.25030555555556,59.39561111111111,0</coordinates>
+        <coordinates>24.550771,58.370032,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Püssi</name>
+      <name>Hesburger Tallinn Rocca Al Mare</name>
       <Point>
-        <coordinates>27.044500000000003,59.35930555555556,0</coordinates>
+        <coordinates>24.660042,59.427533,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Kiviõli</name>
+      <name>Hesburger Pärnu Maxima</name>
       <Point>
-        <coordinates>26.96305555555556,59.35694444444445,0</coordinates>
+        <coordinates>24.53669,58.375092,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Kunda</name>
+      <name>Hesburger Tallinn Merimetsa Selver</name>
       <Point>
-        <coordinates>26.527388888888886,59.50925,0</coordinates>
+        <coordinates>24.69713,59.430153,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Rakvere</name>
+      <name>Hesburger Pärnu Niidu Drive</name>
       <Point>
-        <coordinates>26.36052777777778,59.35275,0</coordinates>
+        <coordinates>24.540026,58.393268,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Tamsalu</name>
+      <name>Hesburger Tallinn Kristiine keskus</name>
       <Point>
-        <coordinates>26.09358333333333,59.164,0</coordinates>
+        <coordinates>24.722328,59.427252,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Tapa</name>
+      <name>Hesburger Pärnu Port Artur</name>
       <Point>
-        <coordinates>25.948416666666667,59.27155555555555,0</coordinates>
+        <coordinates>24.503037,58.386253,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Loksa</name>
+      <name>Hesburger Tallinn Sõle</name>
       <Point>
-        <coordinates>25.72097222222222,59.58402777777778,0</coordinates>
+        <coordinates>24.708606,59.437873,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Kehra</name>
+      <name>Hesburger Võru</name>
       <Point>
-        <coordinates>25.32852777777778,59.339194444444445,0</coordinates>
+        <coordinates>27.010202,57.835098,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Maardu</name>
+      <name>Hesburger Tallinn Arsenali keskus</name>
       <Point>
-        <coordinates>25.02058333333333,59.480555555555554,0</coordinates>
+        <coordinates>24.716886,59.451322,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
-      <name>Tallinn</name>
+      <name>Hesburger Kuressaare Auriga keskuses</name>
       <Point>
-        <coordinates>24.70533333333333,59.43277777777777,0</coordinates>
+        <coordinates>22.515288,58.26561,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Hesburger Tallinn Nautica Keskus</name>
+      <Point>
+        <coordinates>24.76265,59.440574,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Hesburger Haapsalu</name>
+      <Point>
+        <coordinates>23.540823,58.939081,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Hesburger Tallinn Viru tn.</name>
+      <Point>
+        <coordinates>24.751857,59.436722,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Hesburger Keila Selver</name>
+      <Point>
+        <coordinates>24.421447,59.313401,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Hesburger Tallinn Solaris Keskus</name>
+      <Point>
+        <coordinates>24.751306,59.433725,0</coordinates>
       </Point>
     </Placemark>
 
@@ -343,7 +378,7 @@
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          26.72247222222222,58.38013888888889,0 26.418194444444445,58.22661111111111,0 26.492444444444445,58.06019444444444,0 27.07027777777778,58.063944444444445,0 27.46686111111111,58.09961111111112,0 27.006353,57.841424,0 26.534,57.82872222222223,0 26.049666666666667,57.77875,0 25.92327777777778,58.00236111111112,0 25.55025,58.10286111111111,0 25.353611111111118,58.12655555555556,0 25.180861111111117,58.09283333333334,0 24.96225,58.14972222222222,0 24.65872222222222,58.403,0 24.516,58.38463888888889,0 22.49344444444445,58.257305555555554,0 23.833277777777777,58.68219444444444,0 22.74716666666667,58.99761111111111,0 23.54113888888889,58.94269444444444,0 24.057666666666663,59.35208333333333,0 24.416416666666667,59.30658333333333,0 24.544194444444447,59.32016666666667,0 24.80125,58.99952777777778,0 25.42613888888889,58.80858333333333,0 25.562194444444444,58.88652777777778,0 25.560166666666667,58.63352777777778,0 25.46797222222222,58.536027777777775,0 25.574694444444443,58.361222222222224,0 25.97675,58.65633333333333,0 26.397,58.74508333333333,0 27.15544444444444,58.66788888888889,0 26.944444444444446,58.848194444444445,0 27.41766666666667,59.35525,0 28.03505555555556,59.45466666666667,0 28.197777777777777,59.37611111111112,0 27.73580555555556,59.400277777777774,0 27.25030555555556,59.39561111111111,0 27.044500000000003,59.35930555555556,0 26.96305555555556,59.35694444444445,0 26.527388888888886,59.50925,0 26.36052777777778,59.35275,0 26.09358333333333,59.164,0 25.948416666666667,59.27155555555555,0 25.72097222222222,59.58402777777778,0 25.32852777777778,59.339194444444445,0 25.02058333333333,59.480555555555554,0 24.70533333333333,59.43277777777777,0
+          26.725174,58.380793,0 26.027714,57.777985,0 26.677553,58.357677,0 26.696668,58.376072,0 26.678861,58.37563,0 26.72883,58.376523,0 24.617594,59.348955,0 26.751086,58.378156,0 24.63118,59.360329,0 26.750666,58.373613,0 24.771866,59.326496,0 24.811351,59.402656,0 24.896463,59.445834,0 26.383755,59.354901,0 25.018557,59.48734,0 24.863903,59.440863,0 26.339464,59.364323,0 24.831482,59.434938,0 28.187141,59.37961,0 24.793786,59.424661,0 28.185921,59.365479,0 24.782889,59.425996,0 27.419774,59.337758,0 24.730492,59.402168,0 27.414449,59.357972,0 24.70738,59.411797,0 27.286446,59.398203,0 24.696846,59.400877,0 25.967906,59.258187,0 24.685001,59.409358,0 26.0,59.0,0 24.655146,59.413821,0 25.541933,58.886567,0 24.651578,59.420991,0 25.59745,58.369265,0 24.647293,59.425754,0 24.550771,58.370032,0 24.660042,59.427533,0 24.53669,58.375092,0 24.69713,59.430153,0 24.540026,58.393268,0 24.722328,59.427252,0 24.503037,58.386253,0 24.708606,59.437873,0 27.010202,57.835098,0 24.716886,59.451322,0 22.515288,58.26561,0 24.76265,59.440574,0 23.540823,58.939081,0 24.751857,59.436722,0 24.421447,59.313401,0 24.751306,59.433725,0
         </coordinates>
       </LineString>
     </Placemark>

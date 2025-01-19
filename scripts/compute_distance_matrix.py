@@ -1,78 +1,117 @@
 #!/usr/bin/env python3
 """
-ors_matrix_api.py
+ors_matrix_api_chunked.py
 
-Reads a CSV of cities with lat/lon, queries the OpenRouteService Matrix API,
-and outputs distance and duration matrices as CSVs.
+Splits the ORS Matrix requests into chunks so as not to exceed
+the 3,500-route server limit in each request.
 
-Note: Replace "YOUR_API_KEY" with your actual ORS API key.
+Example logic:
+- Suppose you have N=81 locations (81x81=6561 routes > 3500).
+- chunk_size = floor(3500 / 81) = 43
+- We'll do 2 calls:
+  - sources = [0..42], destinations = [0..80]
+  - sources = [43..80], destinations = [0..80]
+- Then merge results to form a full 81x81 matrix.
+
+Adjust 'PROFILE' and 'API_KEY' to your needs.
 """
 
-import csv
+import math
 import requests
 import pandas as pd
 
-# Replace with your ORS API key
-API_KEY = "5b3ce3597851110001cf6248931d189b3a424b0a90b621b4003aeecb"
-
-# ORS Matrix endpoint
+API_KEY = "5b3ce3597851110001cf6248931d189b3a424b0a90b621b4003aeecb"  # put your real ORS key here
 MATRIX_URL = "https://api.openrouteservice.org/v2/matrix"
-
-# Profile can be "driving-car", "cycling-regular", "foot-walking", etc.
-PROFILE = "driving-car"
+PROFILE = "foot-walking"  # or "driving-car", "cycling-regular", etc.
 
 def main():
-    # 1. Read city data
-    csv_file = "data/cities.csv"  # Adjust if needed
-    city_data = pd.read_csv(csv_file)
+    # 1. Load your CSV (city, lat, lon)
+    csv_file = "data/hesburger_coords.csv"
+    df = pd.read_csv(csv_file)
 
-    # We need coordinates in [lon, lat] format for ORS
-    # city_data columns: City, Latitude, Longitude
+    # Build the 'locations' list [ [lon, lat], ... ]
     coords = []
     city_names = []
-    
-    for index, row in city_data.iterrows():
-        city_names.append(row["City"].strip())
+    for i, row in df.iterrows():
+        city = str(row["Restoran"]).strip()
         lat = float(row["Latitude"])
         lon = float(row["Longitude"])
         coords.append([lon, lat])  # ORS expects [lon, lat]
+        city_names.append(city)
 
-    # 2. Prepare the POST request body
-    payload = {
-        "locations": coords,
-        "metrics": ["distance", "duration"],
-        # 'units': "km"   # By default, distances come in meters. 
-        # If you set units to "km", distances come in kilometers (ORS docs).
-    }
+    N = len(coords)
+    print(f"Total points: {N}")
 
-    headers = {
-        "Authorization": API_KEY,
-        "Content-Type": "application/json"
-    }
+    # 2. Determine chunk size so chunk_size*N <= 3500
+    #    This ensures each sub-request doesn't exceed the 3500-route limit.
+    chunk_size = math.floor(3500 / N)
+    if chunk_size < 1:
+        # If chunk_size=0, then N is too large for this simple approach
+        # We would need to chunk destinations as well. 
+        raise ValueError(
+            f"Too many points ({N}) to even have 1 row in chunk. "
+            "Try chunking columns as well or reduce your dataset."
+        )
 
-    # 3. Send the request
-    print(f"Requesting matrix from ORS for {len(coords)} cities...")
-    response = requests.post(f"{MATRIX_URL}/{PROFILE}", json=payload, headers=headers)
-    
-    if response.status_code != 200:
-        raise Exception(f"ORS Matrix API error: {response.status_code}, {response.text}")
+    print(f"Using chunk_size={chunk_size}. Each sub-request = {chunk_size} * {N} = {chunk_size*N} routes.")
 
-    result = response.json()
+    # We'll prepare empty 2D arrays for distances & durations, size NxN
+    dist_matrix = [[0.0]*N for _ in range(N)]
+    dur_matrix = [[0.0]*N for _ in range(N)]
 
-    # 4. Extract distances (meters) and durations (seconds)
-    # result has keys "distances" and "durations", each is a 2D list
-    distances = result.get("distances", [])
-    durations = result.get("durations", [])
+    # 3. For each chunk of sources, call the API
+    start_idx = 0
+    while start_idx < N:
+        end_idx = min(start_idx + chunk_size, N)
+        chunk_length = end_idx - start_idx
 
-    # 5. Convert to DataFrame for easy CSV export
-    dist_df = pd.DataFrame(distances, index=city_names, columns=city_names)
-    dur_df = pd.DataFrame(durations, index=city_names, columns=city_names)
+        # Prepare the request payload
+        # We specify the entire set of locations,
+        # but limit "sources" to this chunk, and "destinations" to [all].
+        payload = {
+            "locations": coords,         # all points
+            "metrics": ["distance","duration"],
+            "sources": list(range(start_idx, end_idx)),  # chunk
+            "destinations": list(range(N)),              # full
+        }
 
-    # 6. Save to CSV
-    dist_df.to_csv("distance_matrix.csv")
-    dur_df.to_csv("duration_matrix.csv")
+        headers = {
+            "Authorization": API_KEY,
+            "Content-Type": "application/json"
+        }
 
-    print("Done! distance_matrix.csv and duration_matrix.csv have been created.")
+        print(f"Requesting matrix for sources={start_idx}..{end_idx-1} of {N} (size {chunk_length})")
+        r = requests.post(f"{MATRIX_URL}/{PROFILE}", json=payload, headers=headers)
+        if r.status_code != 200:
+            raise Exception(
+                f"ORS Matrix API error: {r.status_code}, {r.text}"
+            )
+
+        result = r.json()
+        sub_dist = result["distances"]   # chunk_length x N
+        sub_dur = result["durations"]    # chunk_length x N
+
+        # 4. Merge sub-results into the main NxN arrays
+        # sub_dist[i][j] is the distance from source (start_idx + i) to j
+        for i in range(chunk_length):
+            global_row = start_idx + i
+            for j in range(N):
+                dist_matrix[global_row][j] = sub_dist[i][j]
+                dur_matrix[global_row][j] = sub_dur[i][j]
+
+        # Advance chunk
+        start_idx = end_idx
+
+    print("All chunks processed. Building DataFrames...")
+
+    # 5. Create pandas DataFrames for easier CSV output
+    dist_df = pd.DataFrame(dist_matrix, index=city_names, columns=city_names)
+    dur_df = pd.DataFrame(dur_matrix, index=city_names, columns=city_names)
+
+    # 6. Save results
+    dist_df.to_csv("hesburger_distance_matrix.csv")
+    dur_df.to_csv("hesburger_duration_matrix.csv")
+    print("Done! hesburger_distance_matrix.csv and hesburger_duration_matrix.csv created.")
 
 if __name__ == "__main__":
     main()
