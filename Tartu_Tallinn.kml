@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Tartu -> Tallinn</name>
+
+    <Placemark>
+      <name>Tartu</name>
+      <Point>
+        <coordinates>26.72247222222222,58.38013888888889,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Elva</name>
+      <Point>
+        <coordinates>26.418194444444445,58.22661111111111,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Otepää</name>
+      <Point>
+        <coordinates>26.492444444444445,58.06019444444444,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Põlva</name>
+      <Point>
+        <coordinates>27.07027777777778,58.063944444444445,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Räpina</name>
+      <Point>
+        <coordinates>27.46686111111111,58.09961111111112,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Võru</name>
+      <Point>
+        <coordinates>27.006353,57.841424,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Antsla</name>
+      <Point>
+        <coordinates>26.534,57.82872222222223,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Valga</name>
+      <Point>
+        <coordinates>26.049666666666667,57.77875,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Tõrva</name>
+      <Point>
+        <coordinates>25.92327777777778,58.00236111111112,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Karksi-Nuia</name>
+      <Point>
+        <coordinates>25.55025,58.10286111111111,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Abja-Paluoja</name>
+      <Point>
+        <coordinates>25.353611111111118,58.12655555555556,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Mõisaküla</name>
+      <Point>
+        <coordinates>25.180861111111117,58.09283333333334,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Kilingi-Nõmme</name>
+      <Point>
+        <coordinates>24.96225,58.14972222222222,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Sindi</name>
+      <Point>
+        <coordinates>24.65872222222222,58.403,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Pärnu</name>
+      <Point>
+        <coordinates>24.516,58.38463888888889,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Kuressaare</name>
+      <Point>
+        <coordinates>22.49344444444445,58.257305555555554,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Lihula</name>
+      <Point>
+        <coordinates>23.833277777777777,58.68219444444444,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Kärdla</name>
+      <Point>
+        <coordinates>22.74716666666667,58.99761111111111,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Haapsalu</name>
+      <Point>
+        <coordinates>23.54113888888889,58.94269444444444,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Paldiski</name>
+      <Point>
+        <coordinates>24.057666666666663,59.35208333333333,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Keila</name>
+      <Point>
+        <coordinates>24.416416666666667,59.30658333333333,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Saue</name>
+      <Point>
+        <coordinates>24.544194444444447,59.32016666666667,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Rapla</name>
+      <Point>
+        <coordinates>24.80125,58.99952777777778,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Türi</name>
+      <Point>
+        <coordinates>25.42613888888889,58.80858333333333,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Paide</name>
+      <Point>
+        <coordinates>25.562194444444444,58.88652777777778,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Võhma</name>
+      <Point>
+        <coordinates>25.560166666666667,58.63352777777778,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Suure-Jaani</name>
+      <Point>
+        <coordinates>25.46797222222222,58.536027777777775,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Viljandi</name>
+      <Point>
+        <coordinates>25.574694444444443,58.361222222222224,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Põltsamaa</name>
+      <Point>
+        <coordinates>25.97675,58.65633333333333,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Jõgeva</name>
+      <Point>
+        <coordinates>26.397,58.74508333333333,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Kallaste</name>
+      <Point>
+        <coordinates>27.15544444444444,58.66788888888889,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Mustvee</name>
+      <Point>
+        <coordinates>26.944444444444446,58.848194444444445,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Jõhvi</name>
+      <Point>
+        <coordinates>27.41766666666667,59.35525,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Narva-Jõesuu</name>
+      <Point>
+        <coordinates>28.03505555555556,59.45466666666667,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Narva</name>
+      <Point>
+        <coordinates>28.197777777777777,59.37611111111112,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Sillamäe</name>
+      <Point>
+        <coordinates>27.73580555555556,59.400277777777774,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Kohtla-Järve</name>
+      <Point>
+        <coordinates>27.25030555555556,59.39561111111111,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Püssi</name>
+      <Point>
+        <coordinates>27.044500000000003,59.35930555555556,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Kiviõli</name>
+      <Point>
+        <coordinates>26.96305555555556,59.35694444444445,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Kunda</name>
+      <Point>
+        <coordinates>26.527388888888886,59.50925,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Rakvere</name>
+      <Point>
+        <coordinates>26.36052777777778,59.35275,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Tamsalu</name>
+      <Point>
+        <coordinates>26.09358333333333,59.164,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Tapa</name>
+      <Point>
+        <coordinates>25.948416666666667,59.27155555555555,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Loksa</name>
+      <Point>
+        <coordinates>25.72097222222222,59.58402777777778,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Kehra</name>
+      <Point>
+        <coordinates>25.32852777777778,59.339194444444445,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Maardu</name>
+      <Point>
+        <coordinates>25.02058333333333,59.480555555555554,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Tallinn</name>
+      <Point>
+        <coordinates>24.70533333333333,59.43277777777777,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Tartu -> Tallinn Path</name>
+      <Style>
+        <LineStyle>
+          <color>ff0000ff</color> <!-- red line in ABGR format -->
+          <width>3</width>
+        </LineStyle>
+      </Style>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          26.72247222222222,58.38013888888889,0 26.418194444444445,58.22661111111111,0 26.492444444444445,58.06019444444444,0 27.07027777777778,58.063944444444445,0 27.46686111111111,58.09961111111112,0 27.006353,57.841424,0 26.534,57.82872222222223,0 26.049666666666667,57.77875,0 25.92327777777778,58.00236111111112,0 25.55025,58.10286111111111,0 25.353611111111118,58.12655555555556,0 25.180861111111117,58.09283333333334,0 24.96225,58.14972222222222,0 24.65872222222222,58.403,0 24.516,58.38463888888889,0 22.49344444444445,58.257305555555554,0 23.833277777777777,58.68219444444444,0 22.74716666666667,58.99761111111111,0 23.54113888888889,58.94269444444444,0 24.057666666666663,59.35208333333333,0 24.416416666666667,59.30658333333333,0 24.544194444444447,59.32016666666667,0 24.80125,58.99952777777778,0 25.42613888888889,58.80858333333333,0 25.562194444444444,58.88652777777778,0 25.560166666666667,58.63352777777778,0 25.46797222222222,58.536027777777775,0 25.574694444444443,58.361222222222224,0 25.97675,58.65633333333333,0 26.397,58.74508333333333,0 27.15544444444444,58.66788888888889,0 26.944444444444446,58.848194444444445,0 27.41766666666667,59.35525,0 28.03505555555556,59.45466666666667,0 28.197777777777777,59.37611111111112,0 27.73580555555556,59.400277777777774,0 27.25030555555556,59.39561111111111,0 27.044500000000003,59.35930555555556,0 26.96305555555556,59.35694444444445,0 26.527388888888886,59.50925,0 26.36052777777778,59.35275,0 26.09358333333333,59.164,0 25.948416666666667,59.27155555555555,0 25.72097222222222,59.58402777777778,0 25.32852777777778,59.339194444444445,0 25.02058333333333,59.480555555555554,0 24.70533333333333,59.43277777777777,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+</Document>
+</kml>
